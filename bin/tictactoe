@@ -1,3 +1,9 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+
+
+cli = Command_Line_Interface.new
+cli.welcome
+cli.start_game
+cli.play_again?
